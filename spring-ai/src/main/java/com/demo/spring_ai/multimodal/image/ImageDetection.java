@@ -12,7 +12,7 @@ public class ImageDetection {
 
     private final ChatClient openAIChatClient;
 
-    @Value("classpath:/images/hyderabad-city-map.jpg")
+    @Value("classpath:/images/bangalore-city-map.jpg")
     Resource sampleImage;
 
     public ImageDetection(ChatClient openAIChatClient){
